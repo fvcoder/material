@@ -1,0 +1,8 @@
+{
+  "name": "@fvcoder/material",
+  "version": "1.0.0",
+  "description": "Material design for React js ",
+  "repository": "https://github.com/fvcoder/material",
+  "author": "Fernando Ticona <46249834+fvcoder@users.noreply.github.com>",
+  "license": "MIT"
+}
