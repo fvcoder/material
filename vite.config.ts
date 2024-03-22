@@ -43,6 +43,7 @@ export default defineConfig({
     }),
     dts({
       exclude: ["**/*.stories.(t|j)sx", "node_modules/**"],
+      insertTypesEntry: true,
     }),
   ],
 });

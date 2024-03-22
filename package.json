@@ -1,11 +1,28 @@
 {
   "name": "@fvcoder/material",
   "type": "module",
-  "version": "0.1.0",
-  "description": "Material design for React js ",
+  "version": "0.1.3",
+  "description": "Material design for React js",
   "repository": "https://github.com/fvcoder/material",
   "author": "Fernando Ticona <46249834+fvcoder@users.noreply.github.com>",
   "license": "MIT",
+  "main": "./dist/fvcoder-material.umd.js",
+  "module": "./dist/fvcoder-material.es.js",
+  "types": "./dist/fvcoder-material.d.ts",
+  "exports": {
+    ".": {
+      "import": "./fvcoder-material.es.js",
+      "require": "./fvcoder-material.umd.js"
+    }
+  },
+  "size-limit": [
+    {
+      "path": "./dist/fvcoder-material.es.js"
+    },
+    {
+      "path": "./dist/fvcoder-material.umd.js"
+    }
+  ],
   "scripts": {
     "build": "vite build",
     "storybook": "storybook dev -p 6006",
